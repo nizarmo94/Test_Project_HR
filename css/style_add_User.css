@@ -1,0 +1,621 @@
+* {
+	margin:0;
+}
+a {
+	text-decoration:none;
+	color:red;
+	font-weight:bold;
+}
+body {	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+ line-height: auto;
+    background:#37cd01 url(../images/bg_grad.jpg) repeat top;
+	direction:rtl;
+}
+ h2 {
+	font-family:ae_AlMohanad,AlArabiya,AL-Mohanad Bold;
+    align:center;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right:20px;
+	font-weight:bold;
+	
+	
+}
+h6 {
+	font-weight:bold;
+	font-size:16px;
+	font-family: Courier New,ae_AlMohanad,ae_ALArabiya;
+	color:#000;;
+	
+	}
+pre{
+	font-size:24px;
+	
+}
+
+#bg_img .h2 {
+	font-family:ae_AlHor,ae_AlMohanad,AlArabiya,AL-Mohanad Bold;
+    align:right;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right:20px;
+	font-weight:bold;
+	color:#000000;
+	
+}
+.contant
+{
+	width:100%;
+	background:url(../images/bg_grad.jpg) repeat ;
+	}
+#bg_img{
+    background:url(../images/bg.jpg) repeat-x top center;
+}
+
+#header {
+	padding-top:4px;
+	width:100%;
+	height:170px;
+	margin-bottom:0px;
+}
+#header .logo {
+	float:right;
+	width:120px;
+	height:150px;
+	margin-right:7%;
+	margin-top:10px;
+}
+
+#header .center_logo {
+	margin:0px 22% 0px 0px ;
+	float:right;
+	width:30%;
+	height:170px;
+}
+#header .center_logo img {
+	width:100%;
+	height:100%;
+}
+#bg_img .headertd {
+	border-radius:10px ;
+	border:0;
+	
+	}
+#header .left_Logo {
+	float:left;
+	width:133px;
+	height:158px;
+	margin-left:4%;
+}
+
+#header .logo img {
+	margin-top:2.5%;
+	margin-bottom:2.5%;
+	width:95%;
+	height:95%;
+}
+
+
+/* Menu */
+
+
+
+#menu {
+	width: 90%;
+	height: 40px;
+	margin: 20px auto;
+	padding: 0;
+	background: #FC9D00;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: adobe arabic;
+	width: 90%;
+
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+	
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+#menu ul {
+	margin: 5px 0px 0px 0px auto;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: right;
+	margin-left:10px;
+}
+
+#menu a {
+	display: block;
+	height: 30px;
+	margin-bottom: 0px;
+	padding: 10px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #E93301;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #E93301;
+	color: #FFFFFF;
+}
+
+
+#bg_img .BG_login{
+	margin:auto;
+	width:60%;
+	padding: 30px;
+	font-weight:bold;
+	font-size:18px;
+	color:white;
+    
+}
+#bg_img .BG_login pre{
+	font-family:ae_AlHor,ae_AlMohanad,AlArabiya,AL-Mohanad Bold;
+    align:center;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right:20px;
+	font-weight:bold;
+	color:#000;
+	font-size:26px;
+	}
+.but {
+	background:#ABC314;
+	color:brown;
+	border:1px solid gray;
+	margin-top:3px;
+	
+	font-family:tradtional arabic;
+	font-weight:bold;
+}
+
+#header .login .input {
+	width:180px;
+	border-radius:5px;
+                 -moz-border-radius:5px;
+                 -webkit-border-radius:5px;
+                 -o-border-radius:5px;
+	border:1px dotted white;
+	background:paige;
+}
+
+
+#container {
+	width:80%;
+	margin:0 auto;
+	border-right:1px solid #ABC314;
+	border-left:1px solid #ABC314;
+	background:white;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	
+}
+
+
+#about {
+	width:97%;
+	margin:0 1% 5px 1%;
+	
+	border-radius:10px;
+	
+	
+	border:1px solid gray;	
+}
+#about h2 {
+	background:url(../images/header-bg.jpg) repeat-x;
+	border-bottom:3px ridge #D4BF00;
+	padding-right:10px;
+	color:white;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+
+
+#about p {
+	text-align:justify;
+	color:#28352B;
+	padding:4px 10px 0 10px;
+	
+}
+#contents {
+	width:97%;
+	margin:0 1% 5px 1%;
+	
+	border-radius:10px;
+	
+}
+#contents h2 {
+	background:url(../images/header-bg.jpg) repeat-x;
+	border-bottom:3px ridge #D4BF00;
+	padding-right:10px;
+	color:white;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+#contents .right {
+	float:right;
+	width:58%;
+	
+	border-radius:10px;
+	/*border:1px solid gray;*/
+	
+}
+#contents .left {
+	float:left;
+	width:40%;
+	
+	
+}
+#contents .left .det {
+	
+	width:100%;
+	height:230px;
+	border-radius:10px;
+	border:1px solid gray;
+	margin-top:5px;
+}
+
+#news {
+	width:99%;
+	border:1px;
+	border-radius:5px;
+	background:#FFFBF0;
+	margin-top:5px;
+	padding:3px;
+	border:1px gray dotted;
+	
+}
+#news img {
+	float:right;
+	width:100px;
+	height:80px;
+	border-radius:3px;
+	margin:0px 2px 0px 10px;
+}
+#news p {
+	float:right;
+	text-align:justify;
+	
+}
+#news h3 {
+	color:brown;
+	border-bottom:1px solid gray;
+	
+}
+
+#footer {
+	width:100%;
+	background:url(../images/header-bg.jpg) repeat-x;
+	color:white;
+	margin-top:20px;
+	border-top:1px orange solid;
+	padding-bottom:5px;
+}
+
+#footer .part {
+	float:right;
+	width:32%;
+	padding-right:10px;
+	padding-top:5px;
+}
+#footer h5 {
+	margin-top:3px;
+	border-bottom:1px ;
+	padding:3px 0 3px 0;
+	font-family:ae_AlMohanad;
+	font-size:14px;
+}
+
+
+.spacer {
+	clear:both;
+}
+table {
+margin:0px 0px 20px 0px;
+border:ridge 2px #000000;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px
+	}
+
+	
+	/*Form styles */
+	
+/* Full-width input fields */
+select {
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 20px 8px 0px;;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=text] {
+    width:90%;
+	  padding: 14px 28px;
+
+    margin: 8px 20px 8px 0px;;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=date] {
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 20px 8px 0px;;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=file] {
+     width:90%;
+    padding: 12px 20px;
+    margin: 8px 20px 8px 0px;;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+   width:90%;
+	  padding: 14px 28px;
+
+    margin: 8px 20px 8px 0px;;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button {
+	width:45%;
+   padding: 12px 20px;
+    margin: 5px 25px -15px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+	margin-right:10%;
+    width: 45%;
+    border-radius: 50%;
+	height:170px;
+}
+
+.container {
+    padding: 10px;
+}
+.container h5 {
+	margin-top:3px;
+	border-bottom:1px ;
+	padding:3px 0 3px 0;
+	font-family:AlArabiya , ae_AlMateen , AL-Mohanad, AL-Mohanad Bold,  ae_AlMohanad ;
+	font-size:18px;
+	color:#000;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+ 
+/*
+input[type=password]:focus {
+    width: 50%;
+}
+
+*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Center the loader */
+#loader {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+
+  display: none;
+  text-align: center;
+}
+#myDiv table{
+
+    text-align: center;
+}
+ h1{
+	font-family:ae_AlMohanad;
+	font-size:26px;
+	color:#fff;
+	}
+
+#add_Mk {
+	
+	
+
+	margin:20px auto ;
+	margin-top:10px;
+	
+	}
+
+#add_Mk pre {
+	margin:8px 20px 5px 0px;
+	font-size:24px;
+}
