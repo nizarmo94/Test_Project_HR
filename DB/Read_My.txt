@@ -1,0 +1,3 @@
+# We Use MySQL Database
+# The Name Of Database = "tes"
+# You Can Find Database File On BD/tes.sql
